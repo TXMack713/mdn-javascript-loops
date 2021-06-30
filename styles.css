@@ -27,9 +27,14 @@ header {
 
 .exercise1 {
   border: 2px inset black;
-  padding: 5%;
+  padding: 2%;
 }
 
 .exercise1 > p {
   border-bottom: 1px dotted lightgray;
+}
+
+.exercise2 {
+  border: 2px inset black;
+  padding: 2%;
 }
