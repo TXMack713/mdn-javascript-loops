@@ -31,6 +31,13 @@ let phonebook = [
 ];
 
 // Add your code here
+while (i < phonebook.length) {
+  if (phonebook[i].name === name) {
+    para.textContent = phonebook[i].name + ` : ` + phonebook[i].number;
+    break;
+  }
+  i++;
+}
 
 // Don't edit the code below here!
 let section2 = document.querySelector('.assessment2');
@@ -51,6 +58,9 @@ function isPrime(num) {
 }
 
 // Add your code here
+do {
+  isPrime(k) ? para2
+} while(k !== 1);
 
 // Don't edit the code below here!
 let section3 = document.querySelector('.assessment3');
