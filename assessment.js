@@ -58,10 +58,12 @@ function isPrime(num) {
 }
 
 // Add your code here
+primeArray = [];
 do {
-  isPrime(k) ? para2.textContent += k + ' ' : k--;
+	isPrime(k) ? primeArray.push(k) :	continue;
+	k--;
 } while(k !== 1);
-
+para2.textContent = primeArray.join(" ");
 // Don't edit the code below here!
 let section3 = document.querySelector('.assessment3');
 section3.appendChild(para2);
