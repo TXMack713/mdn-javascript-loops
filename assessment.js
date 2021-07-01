@@ -59,7 +59,7 @@ function isPrime(num) {
 
 // Add your code here
 do {
-  isPrime(k) ? para2
+  isPrime(k) ? para2.textContent += k + ' ' : k--;
 } while(k !== 1);
 
 // Don't edit the code below here!
